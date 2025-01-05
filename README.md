@@ -11,14 +11,14 @@
 
 </div>
 
-## Description
+## <img width="18px" height="18px" src="./icons/info_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Description
 
 **[aurumOS Next](https://aurumos.site/next)** is a highly secure, efficient, and portable Unix-like operating system based on NetBSD. 
 Designed to meet modern computing needs, it is adaptable for various platforms, from servers and desktops 
 to embedded systems. This repository contains the tools and configurations needed to build aurumOS Next, 
 making it ideal for developers seeking a highly customizable NetBSD-based OS.
 
-## Building
+## <img width="18px" height="18px" src="./icons/build_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Building
 
 You can cross-build aurumOS Next from most UNIX-like operating systems. 
 To build for `amd64` (x86_64), run the following command in the repository's root directory:
@@ -29,17 +29,17 @@ To build for `amd64` (x86_64), run the following command in the repository's roo
 
 Additional build information is available in the [BUILDING](BUILDING) file.
 
-## Binaries
+## <img width="18px" height="18px" src="./icons/download_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/>  Binaries
 
 - [Daily builds](https://github.com/Ecliptica-Ltd/aurumOS-Next/actions)
 - [Releases](https://github.com/Ecliptica-Ltd/aurumOS-Next/releases)
 
-## Troubleshooting
+## <img width="18px" height="18px" src="./icons/error_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Troubleshooting
 
 Report bugs and patches via the issue tracker.
 Join the community discussion on aurumOS forums.
 
-## Latest Sources
+## <img width="18px" height="18px" src="./icons/code_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Latest Sources
 To fetch the sources for aurumOS Next:
 ```bash
 git clone https://github.com/Ecliptica-Ltd/aurumOS-Next.git
