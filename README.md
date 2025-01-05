@@ -1,56 +1,50 @@
-NetBSD
-======
+<h1 align="center">
+  aurumOS Next
+  <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="26px" fill="#7CA7D8"><path d="M600-160q-134 0-227-93t-93-227q0-134 93-227t227-93q134 0 227 93t93 227q0 134-93 227t-227 93Zm-306-12q-113-14-183.5-103.5T40-480q0-115 70.5-204.5T294-788v58q-88 16-141 87.5T100-480q0 91 53 162.5T294-230v58Zm306-308Zm0 260q107 0 183.5-76.5T860-480q0-107-76.5-183.5T600-740q-107 0-183.5 76.5T340-480q0 107 76.5 183.5T600-220Z"/></svg>
+</h1>
 
-NetBSD is a free, fast, secure, and highly portable Unix-like Open
-Source operating system.  It is available for a [wide range of
-platforms](https://wiki.NetBSD.org/ports/), from large-scale servers
-and powerful desktop systems to handheld and embedded devices.
+<div align="center" style="border: 1px solid #7CA7D8; padding: 10px; border-radius: 5px; background-color: black; color: #fff; margin-bottom: 20px;">
+  <strong>Warning:</strong> This project is under development. Expect frequent updates and changes!
+</div>
 
-Building
---------
+<div align="center">
 
-You can cross-build NetBSD from most UNIX-like operating systems.
-To build for amd64 (x86_64), in the src directory:
+![GitHub License](https://img.shields.io/github/license/Ecliptica-Ltd/aurumOS-Next?style=for-the-badge&logo=github&logoColor=%237CA7D8&label=License&labelColor=black&color=black)
+![GitHub Issues](https://img.shields.io/github/issues/Ecliptica-Ltd/aurumOS-Next?style=for-the-badge&logo=github&logoColor=%237CA7D8&label=Issues&labelColor=black&color=black)
+<!-- ![SourceForge Downloads](https://img.shields.io/sourceforge/dw/aurum-os-next?style=for-the-badge&logo=sourceforge&logoColor=%237CA7D8&label=Downloads&labelColor=black&color=black) -->
 
-    ./build.sh -U -u -j4 -m amd64 -O ~/obj release
+</div>
 
-Additional build information available in the [BUILDING](BUILDING) file.
+## Description
 
-Binaries
---------
+<svg xmlns="http://www.w3.org/2000/svg" height="8px" viewBox="0 -960 960 960" width="12px" fill="#7CA7D8"><path d="M600-160q-134 0-227-93t-93-227q0-134 93-227t227-93q134 0 227 93t93 227q0 134-93 227t-227 93Zm-306-12q-113-14-183.5-103.5T40-480q0-115 70.5-204.5T294-788v58q-88 16-141 87.5T100-480q0 91 53 162.5T294-230v58Zm306-308Zm0 260q107 0 183.5-76.5T860-480q0-107-76.5-183.5T600-740q-107 0-183.5 76.5T340-480q0 107 76.5 183.5T600-220Z"/></svg> **[aurumOS Next](https://aurumos.site/next)** is a highly secure, efficient, and portable Unix-like operating system based on NetBSD. 
+Designed to meet modern computing needs, it is adaptable for various platforms, from servers and desktops 
+to embedded systems. This repository contains the tools and configurations needed to build aurumOS Next, 
+making it ideal for developers seeking a highly customizable NetBSD-based OS.
 
-- [Daily builds](https://nycdn.NetBSD.org/pub/NetBSD-daily/HEAD/latest/)
-- [Releases](https://cdn.NetBSD.org/pub/NetBSD/)
+## Building
 
-Testing
--------
+You can cross-build aurumOS Next from most UNIX-like operating systems. 
+To build for `amd64` (x86_64), run the following command in the repository's root directory:
 
-On a running NetBSD system:
+```sh
+./build.sh -U -u -j4 -m amd64 -O ~/obj release
+```
 
-    cd /usr/tests; atf-run | atf-report
+Additional build information is available in the [BUILDING](BUILDING) file.
 
-Troubleshooting
----------------
+## Binaries
 
-- Send bugs and patches [via web form](https://www.NetBSD.org/cgi-bin/sendpr.cgi?gndb=netbsd).
-- Subscribe to the [mailing lists](https://www.NetBSD.org/mailinglists/).
-  The [netbsd-users](https://www.NetBSD.org/mailinglists/#netbsd-users) list is a good choice for many problems; watch [current-users](https://www.NetBSD.org/mailinglists/#current-users) if you follow the bleeding edge of NetBSD-current.
-- Join the community IRC channel [#netbsd @ libera.chat](https://web.libera.chat/#netbsd).
+- [Daily builds](https://github.com/Ecliptica-Ltd/aurumOS-Next/actions)
+- [Releases](https://github.com/Ecliptica-Ltd/aurumOS-Next/releases)
 
-Latest sources
---------------
+## Troubleshooting
 
-To fetch the main CVS repository:
+Report bugs and patches via the issue tracker.
+Join the community discussion on aurumOS forums.
 
-    cvs -d anoncvs@anoncvs.NetBSD.org:/cvsroot checkout -P src
-
-To work in the Git mirror, which is updated every few hours from CVS:
-
-    git clone https://github.com/NetBSD/src.git
-
-Additional Links
-----------------
-
-- [The NetBSD Guide](https://www.NetBSD.org/docs/guide/en/)
-- [NetBSD manual pages](https://man.NetBSD.org/)
-- [NetBSD Cross-Reference](https://nxr.NetBSD.org/)
+## Latest Sources
+To fetch the sources for aurumOS Next:
+```bash
+git clone https://github.com/Ecliptica-Ltd/aurumOS-Next.git
+```
