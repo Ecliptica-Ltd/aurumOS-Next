@@ -1,0 +1,46 @@
+name: Build Release ISO
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y xz-utils
+
+    - name: Build Release
+      run: |
+        chmod +x ./build.sh
+        ./build.sh -U -u -j4 -m amd64 -O ~/obj release
+
+    - name: Locate ISO Image
+      run: |
+        # Locate the ISO file, assuming it resides under the build output directory
+        ISO_PATH=$(find ~/obj -name "*.iso" | head -n 1)
+        if [ -z "$ISO_PATH" ]; then
+          echo "ISO image not found!"
+          exit 1
+        fi
+        echo "ISO image located at: $ISO_PATH"
+        echo "ISO_PATH=$ISO_PATH" >> $GITHUB_ENV
+
+    - name: Compress ISO Image
+      run: |
+        xz -z -9 -v "$ISO_PATH"
+
+    - name: Upload Compressed ISO
+      uses: actions/upload-artifact@v4
+      with:
+        name: aurumOS-release
+        path: "${{ env.ISO_PATH }}.xz"
