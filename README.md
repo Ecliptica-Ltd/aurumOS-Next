@@ -1,56 +1,46 @@
-NetBSD
-======
+<h1 align="center">
+  aurumOS Next
+  <img width="18px" height="18px" src="./aurum_os_next_logo.png"/>
+</h1>
 
-NetBSD is a free, fast, secure, and highly portable Unix-like Open
-Source operating system.  It is available for a [wide range of
-platforms](https://wiki.NetBSD.org/ports/), from large-scale servers
-and powerful desktop systems to handheld and embedded devices.
+<div align="center">
 
-Building
---------
+![GitHub License](https://img.shields.io/github/license/Ecliptica-Ltd/aurumOS-Next?style=for-the-badge&logo=github&logoColor=%237CA7D8&label=License&labelColor=black&color=black)
+![GitHub Issues](https://img.shields.io/github/issues/Ecliptica-Ltd/aurumOS-Next?style=for-the-badge&logo=github&logoColor=%237CA7D8&label=Issues&labelColor=black&color=black)
+<!-- ![SourceForge Downloads](https://img.shields.io/sourceforge/dw/aurum-os-next?style=for-the-badge&logo=sourceforge&logoColor=%237CA7D8&label=Downloads&labelColor=black&color=black) -->
 
-You can cross-build NetBSD from most UNIX-like operating systems.
-To build for amd64 (x86_64), in the src directory:
+</div>
 
-    ./build.sh -U -u -j4 -m amd64 -O ~/obj release
+## <img width="18px" height="18px" src="./icons/info_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Description
 
-Additional build information available in the [BUILDING](BUILDING) file.
+**[aurumOS Next](https://aurumos.site/next)** is a highly secure, efficient, and portable Unix-like operating system based on NetBSD. 
+Designed to meet modern computing needs, it is adaptable for various platforms, from servers and desktops 
+to embedded systems. This repository contains the tools and configurations needed to build aurumOS Next, 
+making it ideal for developers seeking a highly customizable NetBSD-based OS.
 
-Binaries
---------
+## <img width="18px" height="18px" src="./icons/build_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Building
 
-- [Daily builds](https://nycdn.NetBSD.org/pub/NetBSD-daily/HEAD/latest/)
-- [Releases](https://cdn.NetBSD.org/pub/NetBSD/)
+You can cross-build aurumOS Next from most UNIX-like operating systems. 
+To build for `amd64` (x86_64), run the following command in the repository's root directory:
 
-Testing
--------
+```sh
+./build.sh -U -u -j4 -m amd64 -O ~/obj release
+```
 
-On a running NetBSD system:
+Additional build information is available in the [BUILDING](BUILDING) file.
 
-    cd /usr/tests; atf-run | atf-report
+## <img width="18px" height="18px" src="./icons/download_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/>  Binaries
 
-Troubleshooting
----------------
+- [Daily builds](https://github.com/Ecliptica-Ltd/aurumOS-Next/actions)
+- [Releases](https://github.com/Ecliptica-Ltd/aurumOS-Next/releases)
 
-- Send bugs and patches [via web form](https://www.NetBSD.org/cgi-bin/sendpr.cgi?gndb=netbsd).
-- Subscribe to the [mailing lists](https://www.NetBSD.org/mailinglists/).
-  The [netbsd-users](https://www.NetBSD.org/mailinglists/#netbsd-users) list is a good choice for many problems; watch [current-users](https://www.NetBSD.org/mailinglists/#current-users) if you follow the bleeding edge of NetBSD-current.
-- Join the community IRC channel [#netbsd @ libera.chat](https://web.libera.chat/#netbsd).
+## <img width="18px" height="18px" src="./icons/error_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Troubleshooting
 
-Latest sources
---------------
+Report bugs and patches via the issue tracker.
+Join the community discussion on aurumOS forums.
 
-To fetch the main CVS repository:
-
-    cvs -d anoncvs@anoncvs.NetBSD.org:/cvsroot checkout -P src
-
-To work in the Git mirror, which is updated every few hours from CVS:
-
-    git clone https://github.com/NetBSD/src.git
-
-Additional Links
-----------------
-
-- [The NetBSD Guide](https://www.NetBSD.org/docs/guide/en/)
-- [NetBSD manual pages](https://man.NetBSD.org/)
-- [NetBSD Cross-Reference](https://nxr.NetBSD.org/)
+## <img width="18px" height="18px" src="./icons/code_256dp_7CA7D8_FILL0_wght400_GRAD0_opsz48.png"/> Latest Sources
+To fetch the sources for aurumOS Next:
+```bash
+git clone https://github.com/Ecliptica-Ltd/aurumOS-Next.git
+```
