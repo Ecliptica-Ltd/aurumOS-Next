@@ -2,7 +2,6 @@
 
 SUBDIR=
 SUBDIR+=	bootcd
-SUBDIR+=	bootcd-com
 SUBDIR+=	installdvd
 SUBDIR+=	installcd
 
