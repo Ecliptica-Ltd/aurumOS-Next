@@ -5,7 +5,6 @@
 
 <div align="center">
 
-![GitHub License](https://img.shields.io/github/license/Ecliptica-Ltd/aurumOS-Next?style=for-the-badge&logo=github&logoColor=%237CA7D8&label=License&labelColor=black&color=black)
 ![GitHub Issues](https://img.shields.io/github/issues/Ecliptica-Ltd/aurumOS-Next?style=for-the-badge&logo=github&logoColor=%237CA7D8&label=Issues&labelColor=black&color=black)
 <!-- ![SourceForge Downloads](https://img.shields.io/sourceforge/dw/aurum-os-next?style=for-the-badge&logo=sourceforge&logoColor=%237CA7D8&label=Downloads&labelColor=black&color=black) -->
 
