@@ -1,0 +1,42 @@
+Ecliptica Open Source License (EOSL)  
+Version 1.1 – January 2025
+
+Preamble  
+The Ecliptica Open Source License (EOSL) is designed to promote freedom in software use, modification, and distribution while encouraging ethical responsibility. It is inspired by the principles of existing open-source licenses but includes provisions aimed at ensuring fair and responsible use of the software.
+
+---
+
+Terms and Conditions  
+
+1. Permission to Use, Modify, and Distribute  
+You are free to:  
+1.1 Use the licensed software for any purpose, including commercial applications.  
+1.2 Modify the software and create derivative works.  
+1.3 Distribute the original or modified software under the terms of this license.
+
+---
+
+2. Attribution  
+2.1 You must provide appropriate credit to the original authors (Ecliptica Ltd. or subsequent contributors), include a copy of this license, and indicate if changes were made to the software.  
+
+2.2 Attribution must be included in a prominent place in both the source code and any distributed documentation or advertising materials.
+
+---
+
+3. Ethical Use Disclaimer  
+3.1 While this license imposes no restrictions on fields of use, the licensor strongly discourages use of the software for activities that are harmful, oppressive, or unethical, including but not limited to:  
+- Human rights violations.  
+- Development of weapons intended to harm or oppress others.  
+- Violations of international law.  
+
+3.2 This clause is advisory and non-binding to comply with the Open Source Definition.
+
+---
+
+4. No Warranty  
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+---
+
+5. Termination  
+This license and the rights granted under it will terminate automatically if you violate any of its terms. Upon termination, you must cease all use and distribution of the software and any derivative works.
