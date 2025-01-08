@@ -22,7 +22,7 @@ jobs:
     - name: Build Release
       run: |
         chmod +x ./build.sh
-        ./build.sh -U -u -j4 -m amd64 -O ~/obj live-image
+        ./build.sh -U -u -j4 -m amd64 -O ~/obj release
 
     - name: Locate ISO Image
       run: |
